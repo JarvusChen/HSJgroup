@@ -52,7 +52,7 @@ public class Triangle extends Shape
 		setSide3(side3);
 	}
 	@Override
-	public double calculateArea(double side1, double side2, double side3)
+	public double calculateArea()
 	{
 		double s, result;
 		s=(side1+side2+side3)/2;
@@ -60,7 +60,7 @@ public class Triangle extends Shape
 		return result;
 	}
 	@Override
-	public double calculatePerimeter(double side1, double side2, double side3)
+	public double calculatePerimeter()
 	{
 		return side1+side2+side3;
 	}
@@ -72,7 +72,7 @@ public class Triangle extends Shape
 		// TODO Auto-generated method stub
 		
 	}
-	
+
 	
 	
 	
