@@ -8,7 +8,8 @@ public class ShapeTest {
 	}
 
 	void start(){
-		
+		Shape shape[];
+		shape
 	}
 	
 	void processShape(){

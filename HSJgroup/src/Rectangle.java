@@ -25,7 +25,7 @@ public double getWidth() {
 			System.out.println("Put positive number for height.");
 		}
 		else
-		this.height = height;
+			this.height = height;
 	}
 
 	//	constructor
@@ -33,20 +33,25 @@ public double getWidth() {
 		setWidth(width);
 		setHeight(height);
 	}
-	
+	@Override
 	public double calculateArea(){
 		return width*height;
 	}
-	
-	public double calculateParameter(){
+
+	@Override
+	public double calculatePerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void printinfo() {
+		// TODO Auto-generated method stub
 		
 	}
 	
-	void drawRectangle(){
+	public void drawRectangle(){
 		
 	}
 	
-	void printInfo(){
-		
-	}
 }
