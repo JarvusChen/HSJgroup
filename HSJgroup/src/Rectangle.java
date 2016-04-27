@@ -44,13 +44,12 @@ public double getWidth() {
 	}
 
 	@Override
-	public void printinfo() {
-		// TODO Auto-generated method stub
-		
+	public void printInfo() {
+		System.out.printf("Rectangle with an id of %.0d, width of %.6d, height of %.6d, area of %.6d, and perimeter of %.6d",getId(),width,height,calculateArea(),calculatePerimeter());		
 	}
 	
 	public void drawRectangle(){
-		
+
 	}
 	
 }
