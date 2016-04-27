@@ -7,6 +7,7 @@ public class ShapeTest {
 		
 	}
 
+	
 	void start(){
 		Shape shape[];
 		shape[0] = new Rectangle(10, 5);
