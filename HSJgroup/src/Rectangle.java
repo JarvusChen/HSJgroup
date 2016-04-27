@@ -40,8 +40,7 @@ public double getWidth() {
 
 	@Override
 	public double calculatePerimeter() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 2*(width+height);
 	}
 
 	@Override
