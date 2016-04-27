@@ -7,11 +7,14 @@ public class ShapeTest {
 		
 	}
 
+	
 	void start(){
-		Shape shape[5];
-		shape[0] = new Rectangle();
-		shape[1] = new Trianlge();
+		Shape shape[];
+		shape[0] = new Rectangle(10, 5);
+		shape[1] = new Triangle(2, 3, 5);
 		shape[2] = new Circle();
+		
+		shape
 	}
 	
 	void processShape(Shape shape){
