@@ -8,11 +8,15 @@ public class ShapeTest {
 	}
 
 	void start(){
-		Shape shape[];
-		shape
+		Shape shape[5];
+		shape[0] = new Rectangle();
+		shape[1] = new Trianlge();
+		shape[2] = new Circle();
 	}
 	
-	void processShape(){
-		
+	void processShape(Shape shape){
+		if(shape instanceof Rectangle){
+			shape = (Rectangle)
+		}
 	}
 }
