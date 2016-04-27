@@ -4,10 +4,11 @@ abstract public class Shape {
 	
 //	constructor
 	public Shape() {
-
+		
 	}
 	
-//	getter and setter
+
+	//	getter and setter
 	public double getId() {
 		return id;
 	}
