@@ -49,7 +49,17 @@ public double getWidth() {
 	}
 	
 	public void drawRectangle(){
-
+		for(int i=0;i<height;i++)
+		{
+			for(int k=0;k<width;k++){
+				if(k==0&i==0||k==width&&i==0||k==0&&i==height||k==width&&i==height)
+					System.out.println("+");
+				else if(k==0||k==width)
+					System.out.println("|");
+					
+				System.out.print("-");
+			}
+		}
 	}
 	
 }
