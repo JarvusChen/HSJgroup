@@ -20,6 +20,6 @@ abstract public class Shape {
 
 	public abstract double calculateArea();
 	public abstract double calculatePerimeter();
-	public abstract void printinfo();
+	public abstract void printInfo();
 	
 }

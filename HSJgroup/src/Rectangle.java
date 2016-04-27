@@ -25,7 +25,7 @@ public double getWidth() {
 			System.out.println("Put positive number for height.");
 		}
 		else
-		this.height = height;
+			this.height = height;
 	}
 
 	//	constructor
@@ -33,20 +33,23 @@ public double getWidth() {
 		setWidth(width);
 		setHeight(height);
 	}
-	
+	@Override
 	public double calculateArea(){
 		return width*height;
 	}
-	
-	public double calculateParameter(){
-		
+
+	@Override
+	public double calculatePerimeter() {
+		return 2*(width+height);
+	}
+
+	@Override
+	public void printInfo() {
+		System.out.printf("Rectangle with an id of %.0d, width of %.6d, height of %.6d, area of %.6d, and perimeter of %.6d",getId(),width,height,calculateArea(),calculatePerimeter());		
 	}
 	
-	void drawRectangle(){
-		
+	public void drawRectangle(){
+
 	}
 	
-	void printInfo(){
-		
-	}
 }
