@@ -1,7 +1,7 @@
 
 public class Circle extends Shape 
 {
-	double radius;
+	private double radius;
 
 	public double getRadius() {
 		return radius;
@@ -40,8 +40,7 @@ public class Circle extends Shape
 
 	@Override
 	public void printInfo() {
-		// TODO Auto-generated method stub
-		
+		System.out.printf("Circle with an id of %.0d, radius of %.6d, area of %.6d, and perimeter of %.6d",getId(),radius,calculateArea(),calculatePerimeter());		
 	}
 	
 	

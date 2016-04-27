@@ -1,9 +1,9 @@
 
 public class Triangle extends Shape
 {
-	double side1;
-	double side2;
-	double side3;
+	private double side1;
+	private double side2;
+	private double side3;
 	
 	public double getSide1() {
 		return side1;
@@ -70,9 +70,8 @@ public class Triangle extends Shape
 	
 	
 	@Override
-	public void printinfo() {
-		// TODO Auto-generated method stub
-		
+	public void printInfo() {
+		System.out.printf("Triangle with an id of %.0d, sides of %.6d, %.6d and %.6d, area of %.6d, and perimeter of %.6d",getId(),side1,side2,side3,calculateArea(),calculatePerimeter());		
 	}
 
 	
