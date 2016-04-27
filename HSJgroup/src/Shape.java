@@ -4,11 +4,10 @@ abstract public class Shape {
 	
 //	constructor
 	public Shape() {
-		
+
 	}
 	
-
-	//	getter and setter
+//	getter and setter
 	public double getId() {
 		return id;
 	}
@@ -16,10 +15,11 @@ abstract public class Shape {
 	public void setId(double id) {
 		this.id = id;
 	}
+	
 
 
 	public abstract double calculateArea();
 	public abstract double calculatePerimeter();
-	public abstract void printinfo();
+	public abstract void printInfo();
 	
 }
