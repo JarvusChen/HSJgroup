@@ -1,4 +1,5 @@
 
-public class Circle {
-
+public class Circle 
+{
+	double radius;
 }
