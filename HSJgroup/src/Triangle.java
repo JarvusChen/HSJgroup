@@ -66,6 +66,7 @@ public class Triangle extends Shape
 	}
 	
 	
+	
 	@Override
 	public void printinfo() {
 		// TODO Auto-generated method stub
