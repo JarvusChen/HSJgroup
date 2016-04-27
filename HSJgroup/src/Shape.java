@@ -3,9 +3,8 @@ abstract public class Shape {
 	private double id;
 	
 //	constructor
-	public Shape(double id) {
-		super();
-		this.id = id;
+	public Shape() {
+
 	}
 	
 //	getter and setter
