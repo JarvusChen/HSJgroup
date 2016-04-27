@@ -51,6 +51,7 @@ public class Triangle extends Shape
 		setSide2(side2);
 		setSide3(side3);
 	}
+	
 	@Override
 	public double calculateArea()
 	{
@@ -59,6 +60,7 @@ public class Triangle extends Shape
 		result=Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
 		return result;
 	}
+	
 	@Override
 	public double calculatePerimeter()
 	{
